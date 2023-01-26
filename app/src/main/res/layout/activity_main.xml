@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="240dp"
+        android:layout_marginLeft="240dp"
+        android:layout_centerInParent="true"
+        tools:ignore="UselessParent">
+
+        <android.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="10dp"
+            android:id="@+id/card_container">
+        </android.cardview.widget.CardView>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="340dp"
+                android:layout_marginTop="210dp"
+                android:padding="50dp"
+                android:orientation="vertical"
+                android:background="@color/white">
+
+                <EditText
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:hint="Email"
+                    android:textSize="20sp"
+                    tools:ignore="Autofill,HardcodedText,TextFields" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:textSize="20sp"
+                    android:layout_marginTop="30dp"
+                    android:inputType="textPassword"
+                    tools:ignore="Autofill,HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Forgot Password?"
+                    android:layout_gravity="right"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="40dp"
+                  android:text="Sign In"
+                  android:textSize="20sp"
+                  android:textColor="@color/white"
+                  android:background="#ff7150"
+                    tools:ignore="HardcodedText">
+
+                </androidx.appcompat.widget.AppCompatButton>
+
+
+            </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have account?"
+            android:textSize="16sp"
+            android:layout_marginTop="520dp"
+            android:layout_marginLeft="100dp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="550dp"
+            android:text="Sign Up"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="#ff7150"
+            android:layout_marginLeft="50dp"
+            tools:ignore="HardcodedText,RtlHardcoded">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+         <ImageView
+             android:layout_width="75dp"
+             android:layout_height="75dp"
+             android:src="@drawable/logo"
+             android:layout_marginTop="160dp"
+             android:layout_marginLeft="125dp"
+             tools:ignore="ContentDescription,RtlHardcoded" />
+
+
+
+
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
