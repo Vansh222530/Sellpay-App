@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+    android:id="@+id/relativelayout"
+    android:layout_width="340dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="100dp"
+    android:layout_marginRight="240dp"
+    android:layout_marginLeft="240dp"
+    android:layout_centerInParent="true"
+    tools:ignore="UselessParent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/card_container">
+    </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_marginTop="190dp"
+            android:padding="50dp"
+            android:orientation="vertical"
+            android:background="@color/white"/>
+        <EditText
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:textColor="@color/black"
+
+            android:textColorHint="#78909C"
+            android:textSize="20sp"
+            android:layout_marginTop="340dp"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:hint="Phone"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+
+            android:textColorHint="#78909C"
+            android:textSize="20sp"
+            tools:ignore="Autofill,HardcodedText" />
+
+
+
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="540dp"
+            android:layout_marginLeft="120dp"
+            android:text="Next"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:backgroundTint="#ff7150"
+            android:onClick="btnnext"
+            tools:ignore="HardcodedText,RtlHardcoded">
+
+
+        </Button>
+
+    </RelativeLayout>
+
+</RelativeLayout>
