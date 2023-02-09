@@ -71,14 +71,14 @@
 
                 <Button
                     android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:layout_marginTop="40dp"
-                  android:text="Sign In"
-                  android:onClick="btnsignin"
-                  android:textSize="20sp"
-                  android:textColor="@color/white"
-                  android:backgroundTint="#ff7150"
-                    tools:ignore="HardcodedText">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:backgroundTint="#ff7150"
+                    android:onClick="btnsignin"
+                    android:text="Sign In"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText,TextContrastCheck">
 
                 </Button>
 
@@ -105,7 +105,7 @@
             android:text="Sign Up"
             android:textColor="@color/white"
             android:textSize="20sp"
-            tools:ignore="HardcodedText,InvalidId,RtlHardcoded">
+            tools:ignore="HardcodedText,InvalidId,RtlHardcoded,TextContrastCheck">
 
         </Button>
 

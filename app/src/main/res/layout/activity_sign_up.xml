@@ -57,20 +57,17 @@
             tools:ignore="Autofill,HardcodedText" />
 
 
-
-
-
         <Button
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="540dp"
             android:layout_marginLeft="120dp"
-            android:text="Next"
-            android:textSize="20sp"
-            android:textColor="@color/white"
+            android:layout_marginTop="540dp"
             android:backgroundTint="#ff7150"
             android:onClick="btnnext"
-            tools:ignore="HardcodedText,RtlHardcoded">
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlHardcoded,TextContrastCheck">
 
 
         </Button>
