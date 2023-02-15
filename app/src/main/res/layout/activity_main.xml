@@ -38,18 +38,24 @@
                 android:background="@color/white">
 
                 <EditText
+                    android:id="@+id/email"
                     android:layout_width="230dp"
                     android:layout_height="50dp"
                     android:hint="Email"
+                    android:textColor="@color/black"
+                    android:textColorHint="#78909C"
                     android:textSize="20sp"
                     tools:ignore="Autofill,HardcodedText,TextFields" />
 
                 <EditText
+                    android:id="@+id/pass"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:hint="Password"
                     android:inputType="textPassword"
+                    android:textColor="@color/black"
+
                     android:textColorHint="#78909C"
                     android:textSize="20sp"
                     tools:ignore="Autofill,HardcodedText" />
@@ -58,21 +64,23 @@
                     android:layout_height="wrap_content"
                     android:text="Forgot Password?"
                     android:layout_gravity="right"
+                    android:textColor="@color/black"
                     android:textSize="15sp"
                     tools:ignore="HardcodedText,RtlHardcoded" />
 
 
-                <androidx.appcompat.widget.AppCompatButton
+                <Button
                     android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:layout_marginTop="40dp"
-                  android:text="Sign In"
-                  android:textSize="20sp"
-                  android:textColorHint="@color/white"
-                  android:background="#ff7150"
-                    tools:ignore="HardcodedText">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:backgroundTint="#ff7150"
+                    android:onClick="btnsignin"
+                    android:text="Sign In"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText,TextContrastCheck">
 
-                </androidx.appcompat.widget.AppCompatButton>
+                </Button>
 
 
             </LinearLayout>
@@ -80,22 +88,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Don't have account?"
+            android:textColor="@color/black"
             android:textSize="16sp"
             android:layout_marginTop="520dp"
             android:layout_marginLeft="100dp"
             tools:ignore="HardcodedText,RtlHardcoded" />
-        <androidx.appcompat.widget.AppCompatButton
+
+        <Button
+            android:id="@+id/signup"
             android:layout_width="230dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="550dp"
-            android:text="Sign Up"
-            android:textSize="20sp"
-            android:textColorHint="@color/white"
-            android:background="#ff7150"
             android:layout_marginLeft="50dp"
-            tools:ignore="HardcodedText,RtlHardcoded">
+            android:layout_marginTop="550dp"
+            android:backgroundTint="#ff7150"
+            android:onClick="btnsignup"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,InvalidId,RtlHardcoded,TextContrastCheck">
 
-        </androidx.appcompat.widget.AppCompatButton>
+        </Button>
 
         <ImageView
             android:layout_width="75dp"
