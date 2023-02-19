@@ -10,8 +10,8 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="70dp"
@@ -19,7 +19,8 @@
         android:contentDescription="TODO"
         android:onClick="btnqrscan"
         android:scaleType="fitCenter"
-        app:srcCompat="@drawable/qr"
+        app:srcCompat="@drawable/qrc_foreground"
+
         tools:ignore="ContentDescription,HardcodedText,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
     <TextView
         android:layout_width="60dp"
@@ -28,14 +29,95 @@
         android:layout_gravity="right"
         android:textColor="@color/black"
         android:textSize="13sp"
-        android:layout_marginLeft="45dp"
-        android:layout_marginTop="160dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="173dp"
+
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <ImageButton
+        android:id="@+id/paycontact"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="70dp"
+        android:background="@color/white"
+        android:contentDescription="TODO"
+        android:onClick="btnpc"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/pn"
+        tools:ignore="ContentDescription,HardcodedText,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="     Pay Contacts"
+        android:layout_gravity="right"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="172dp"
 
         tools:ignore="HardcodedText,RtlHardcoded" />
 
 
+    <ImageButton
+        android:id="@+id/payph"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="70dp"
+        android:background="@color/white"
+        android:contentDescription="TODO"
+        android:onClick="btnpn"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/pc1"
+        tools:ignore="ContentDescription,HardcodedText,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck"/>
 
-        android:contentDescription="TODO" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="      Pay PhoneNo."
+        android:layout_gravity="right"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="172dp"
+
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+    <ImageButton
+        android:id="@+id/bankt"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="70dp"
+        android:background="@color/white"
+        android:contentDescription="TODO"
+        android:onClick="btnbt"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/bt"
+        tools:ignore="ContentDescription,HardcodedText,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="   Bank Transfer"
+        android:layout_gravity="right"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="315dp"
+
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    android:contentDescription="TODO" />
 
 
 

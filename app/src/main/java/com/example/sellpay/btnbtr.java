@@ -4,13 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class scannercam extends AppCompatActivity {
+public class btnbtr extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_scannercam);
+        setContentView(R.layout.activity_btnbtr);
     }
-
-
 }
