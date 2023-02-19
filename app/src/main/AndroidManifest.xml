@@ -14,6 +14,15 @@
         android:theme="@style/Theme.Design.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".btnbtr"
+            android:exported="false" />
+        <activity
+            android:name=".paypn"
+            android:exported="false" />
+        <activity
+            android:name=".paycontacts"
+            android:exported="false" />
+        <activity
             android:name=".helpfeedback"
             android:exported="false" />
         <activity

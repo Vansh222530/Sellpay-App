@@ -27,6 +27,22 @@ public class Homepage extends AppCompatActivity {
         startActivity(intent);
         Toast.makeText(this,"Scan", Toast.LENGTH_SHORT).show();
     }
+    public void btnpc(View view) {
+        Intent intent = new Intent(this, paycontacts.class);
+        startActivity(intent);
+        Toast.makeText(this,"Sync Contacts", Toast.LENGTH_SHORT).show();
+    }
+    public void btnpn(View view) {
+        Intent intent = new Intent(this, paypn.class);
+        startActivity(intent);
+        Toast.makeText(this,"Enter Contact Number", Toast.LENGTH_SHORT).show();
+    }
+    public void btnbt(View view) {
+        Intent intent = new Intent(this, btnbtr.class);
+        startActivity(intent);
+        Toast.makeText(this,"Bank Transfer", Toast.LENGTH_SHORT).show();
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -71,21 +87,16 @@ public class Homepage extends AppCompatActivity {
                 // First, create an AlertDialog builder
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
-// Set the message for the alert dialog
                 builder.setMessage("Are you sure you want to log out?");
 
-// Add the "Yes" button
                 builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         Intent y = new Intent(Homepage.this, MainActivity.class);
                         startActivity(y);
 
-                        // Perform logout here
-                        // ...
                     }
                 });
 
-// Add the "No" button
                 builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         // Cancel the dialog
@@ -93,11 +104,9 @@ public class Homepage extends AppCompatActivity {
                     }
                 });
 
-// Create and show the alert dialog
                 AlertDialog alertDialog = builder.create();
                 alertDialog.show();
 
-                // Do something for item 3
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

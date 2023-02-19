@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             Toast.makeText(this, "Incorrect email or password", Toast.LENGTH_SHORT).show();
         }
+        finish();
     }
 
 
