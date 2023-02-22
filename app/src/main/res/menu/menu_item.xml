@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_1"
+        android:title="Profile"/>
+    <item
+        android:id="@+id/menu_item_2"
+        android:title="Stock Watch"/>
+    <item
+        android:id="@+id/menu_item_3"
+        android:title="About"/>
+    <item
+        android:id="@+id/menu_item_4"
+        android:title="Privacy and Security"/>
+    <item
+        android:id="@+id/menu_item_5"
+        android:title="Settings"/>
+    <item
+        android:id="@+id/menu_item_6"
+        android:title="Help and Feedback"/>
+    <item
+        android:id="@+id/menu_item_7"
+        android:title="Logout"/>
+</menu>
