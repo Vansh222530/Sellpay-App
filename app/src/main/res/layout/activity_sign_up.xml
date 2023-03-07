@@ -69,7 +69,6 @@
             android:textSize="20sp"
             tools:ignore="HardcodedText,RtlHardcoded,TextContrastCheck">
 
-
         </Button>
 
     </RelativeLayout>

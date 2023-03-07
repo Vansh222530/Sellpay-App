@@ -9,15 +9,13 @@ import android.widget.Toast;
 import android.widget.EditText;
 
 
-public class MainActivity extends AppCompatActivity {
 
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
     }
 
 
@@ -42,7 +40,5 @@ public class MainActivity extends AppCompatActivity {
         }
         finish();
     }
-
-
 
 }

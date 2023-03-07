@@ -64,12 +64,12 @@ public class Homepage extends AppCompatActivity {
                 // Do something for item 2
                 return true;
             case R.id.menu_item_3:
-                Intent a = new Intent(this, about.class);
+                Intent a = new Intent(this, About.class);
                 startActivity(a);
                 // Do something for item 3
                 return true;
             case R.id.menu_item_4:
-                Intent p = new Intent(this, privacysecurity.class);
+                Intent p = new Intent(this, privacy_security.class);
                 startActivity(p);
                 // Do something for item 3
                 return true;
